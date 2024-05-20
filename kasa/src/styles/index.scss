@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Montserrat";
+  #root {
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+
+    .mainContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      margin: 0px 5%;
+      width: 90%;
+    }
+  }
+}

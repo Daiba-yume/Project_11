@@ -1,0 +1,10 @@
+.collapseContainer {
+  padding: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .collapseContainer {
+    padding: 0px;
+    margin-top: 30px;
+  }
+}
